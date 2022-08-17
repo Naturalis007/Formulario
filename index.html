@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans&family=Prata&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulario</title>
+</head>
+
+<body>
+ <div class="formulario">
+  <form>
+
+    <h1>Formulario de inscripción</h1>
+          
+    <div id="tipo-cuenta">
+      <label for="cuenta">Tipo de Cuenta:</label>
+      <input type="radio" name="opcion">Individual 
+      <input type="radio" name="opcion">Compartida
+    </div>
+    
+    <div id="primer-nombre">
+      <label for="primer">Primer Nombre:</label>
+      <input type="text" name="primer">
+    </div>
+    
+    <div id="segundo-nombre">
+      <label for="segundo">Segundo Nombre:</label>
+      <input type="text" name="segundo">
+    </div>
+    
+    <div id="apellido1">
+      <label for="apellido1">Apellido Paterno:</label>
+      <input type="text" name="apellido1">
+    </div>
+
+    <div id="apellido2">
+      <label for="apellido2">Apellido Materno:</label>
+      <input type="text" name="apellido2">
+    </div>
+    
+    <div id="género">
+      <label for="genero">Género:</label>
+      <select id="genero" name="genero">
+        <option> </option>
+        <option>Femenino</option>
+        <option>Masculino</option>
+        <option>Otro</option>
+      </select>
+      </div>
+    
+    <div id="rut">
+      <label for="rut">RUT</label> 
+      <input type="text" name="rut"  placeholder="Sin puntos y sin guión">
+    </div>
+    
+    <div id="fecha-nac">
+      <label for="nac">Fecha de Nacimiento:</label>
+      <input type="date" name="nac" id="">
+    </div>
+    
+    <div id="dirección">
+      <label for="direccion">Dirección:</label>
+      <input type="text" name="direccion" id=""> 
+    </div>
+            
+    <div id="ciudad">
+      <label for="ciudad">Ciudad:</label>
+      <input type="text" name="ciudad">
+    </div>
+    
+    <div id="país">
+      <label for="pais">País:</label>
+      <select id="pais" name="pais">
+        <option> </option>
+        <option>Bolivia</option>
+        <option>Brasil</option>
+        <option>Chile</option>
+        <option>Colombia</option>
+        <option>Cuba</option>
+      </select>
+    </div>
+    
+    <div id="código-postal">
+      <label for="codigo">Código Postal:</label>
+      <input type="text" name="codigo" id="">
+    </div>
+       
+    <div id="celular">
+      <label for="celular">Celular: (+56)</label>
+      <input type="tel" name="celular" placeholder="ej: 123456789">
+    </div>
+    
+  </form>
+
+ </div>
+    
+    
+        
+    
+</body>
+</html> 
